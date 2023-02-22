@@ -1,0 +1,77 @@
+body{
+    overflow: hidden;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    align-content: center;
+    color: gray;
+}
+
+.attribution{
+    font-family: "Outfit", sans-serif;
+    font-size: 11px; text-align: center; 
+    color: rgb(62, 82, 163);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background-color: hsl(212, 45%, 89%);
+}
+
+#qrCodeCard{
+    background-color: hsl(0, 0%, 100%);
+    max-width: 330px;
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15%;
+    padding: 1%;
+    box-shadow: 5px 5px 43px -6px rgba(51,67,133,1);
+}
+
+#qrCodeImage{
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    margin: 5%;
+    border-radius: 5%;
+}
+
+
+
+#qrCodeTitle{
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+#qrCodeText{
+    color:hsl(220, 15%, 55%);
+    font-size: 15px;
+    margin-bottom: 10%;
+    text-align: center;
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+
+#Signature{
+    color: lightgray;
+    font-size: 10px;
+    text-decoration: underline
+}
+
+@media (min-width: 1440px) {
+
+    #qrCodeCard{
+        margin-top: 5%;
+    }
+
+}
